@@ -1,0 +1,140 @@
+$date
+	Tue Jul 14 14:21:03 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module pipelined_multi_test $end
+$var wire 16 ! product [15:0] $end
+$var reg 8 " A [7:0] $end
+$var reg 8 # B [7:0] $end
+$var reg 1 $ clk $end
+$var reg 1 % reset $end
+$scope module DUT $end
+$var wire 8 & A [7:0] $end
+$var wire 8 ' B [7:0] $end
+$var wire 1 $ clk $end
+$var wire 1 % reset $end
+$var reg 8 ( A_reg [7:0] $end
+$var reg 8 ) B_reg [7:0] $end
+$var reg 16 * product [15:0] $end
+$var reg 16 + product_reg [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx +
+bx *
+bx )
+bx (
+b0 '
+b0 &
+1%
+0$
+b0 #
+b0 "
+bx !
+$end
+#5
+b0 !
+b0 *
+b0 +
+b0 )
+b0 (
+1$
+#10
+0$
+b11 #
+b11 '
+b10 "
+b10 &
+0%
+#15
+b11 )
+b10 (
+1$
+#20
+0$
+b101 #
+b101 '
+b100 "
+b100 &
+#25
+b110 +
+b101 )
+b100 (
+1$
+#30
+0$
+b1100 #
+b1100 '
+b1010 "
+b1010 &
+#35
+b110 !
+b110 *
+b10100 +
+b1100 )
+b1010 (
+1$
+#40
+0$
+b111 #
+b111 '
+b10100 "
+b10100 &
+#45
+b10100 !
+b10100 *
+b1111000 +
+b111 )
+b10100 (
+1$
+#50
+0$
+b10 #
+b10 '
+b11111111 "
+b11111111 &
+#55
+b1111000 !
+b1111000 *
+b10001100 +
+b10 )
+b11111111 (
+1$
+#60
+0$
+b0 #
+b0 '
+b0 "
+b0 &
+#65
+b10001100 !
+b10001100 *
+b111111110 +
+b0 )
+b0 (
+1$
+#70
+0$
+#75
+b111111110 !
+b111111110 *
+b0 +
+1$
+#80
+0$
+#85
+b0 !
+b0 *
+1$
+#90
+0$

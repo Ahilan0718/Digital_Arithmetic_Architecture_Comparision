@@ -1,0 +1,230 @@
+$date
+	Sat Jul 11 17:00:31 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module pipe_alu_test $end
+$var wire 1 ! zero $end
+$var wire 8 " result [7:0] $end
+$var wire 1 # carry $end
+$var reg 8 $ A [7:0] $end
+$var reg 8 % B [7:0] $end
+$var reg 1 & clk $end
+$var reg 3 ' opcode [2:0] $end
+$var reg 1 ( reset $end
+$scope module DUT $end
+$var wire 8 ) A [7:0] $end
+$var wire 8 * B [7:0] $end
+$var wire 1 & clk $end
+$var wire 3 + opcode [2:0] $end
+$var wire 1 ( reset $end
+$var reg 8 , A_reg [7:0] $end
+$var reg 8 - B_reg [7:0] $end
+$var reg 1 # carry $end
+$var reg 1 . carry_reg $end
+$var reg 3 / opcode_reg [2:0] $end
+$var reg 8 0 result [7:0] $end
+$var reg 8 1 result_reg [7:0] $end
+$var reg 1 ! zero $end
+$var reg 1 2 zero_reg $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+x2
+bx 1
+bx 0
+bx /
+x.
+bx -
+bx ,
+b0 +
+b0 *
+b0 )
+1(
+b0 '
+0&
+b0 %
+b0 $
+x#
+bx "
+x!
+$end
+#5
+02
+0.
+b0 1
+b0 /
+b0 -
+b0 ,
+1&
+#10
+0&
+b1010 %
+b1010 *
+b10100 $
+b10100 )
+0(
+#15
+0!
+0#
+b0 "
+b0 0
+12
+b1010 -
+b10100 ,
+1&
+#20
+0&
+b1 '
+b1 +
+b101 %
+b101 *
+#25
+1!
+02
+b11110 1
+b1 /
+b101 -
+1&
+#30
+0&
+b10 '
+b10 +
+b1010 %
+b1010 *
+b1100 $
+b1100 )
+#35
+0!
+b11110 "
+b11110 0
+b1111 1
+b10 /
+b1010 -
+b1100 ,
+1&
+#40
+0&
+b11 '
+b11 +
+#45
+b1111 "
+b1111 0
+b1000 1
+b11 /
+1&
+#50
+0&
+b100 '
+b100 +
+#55
+b1000 "
+b1000 0
+b1110 1
+b100 /
+1&
+#60
+0&
+b101 '
+b101 +
+b0 %
+b0 *
+#65
+b1110 "
+b1110 0
+b110 1
+b101 /
+b0 -
+1&
+#70
+0&
+b110 '
+b110 +
+#75
+b110 "
+b110 0
+b11110011 1
+b110 /
+1&
+#80
+0&
+b111 '
+b111 +
+#85
+b11110011 "
+b11110011 0
+b1101 1
+b111 /
+1&
+#90
+0&
+b0 '
+b0 +
+b1 %
+b1 *
+b11111111 $
+b11111111 )
+#95
+b1101 "
+b1101 0
+b1011 1
+b0 /
+b1 -
+b11111111 ,
+1&
+#100
+0&
+b1 '
+b1 +
+b101 %
+b101 *
+b101 $
+b101 )
+#105
+b1011 "
+b1011 0
+12
+1.
+b0 1
+b1 /
+b101 -
+b101 ,
+1&
+#110
+0&
+b0 '
+b0 +
+b0 %
+b0 *
+b0 $
+b0 )
+#115
+1!
+1#
+b0 "
+b0 0
+0.
+b0 /
+b0 -
+b0 ,
+1&
+#120
+0&
+#125
+0#
+1&
+#130
+0&
+#135
+1&
+#140
+0&

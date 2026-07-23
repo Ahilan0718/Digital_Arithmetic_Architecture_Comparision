@@ -1,0 +1,178 @@
+$date
+	Sat Jul 18 11:57:09 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module cla_test $end
+$var wire 8 ! sum [7:0] $end
+$var wire 1 " cout $end
+$var reg 8 # A [7:0] $end
+$var reg 8 $ B [7:0] $end
+$var reg 1 % cin $end
+$scope module uut $end
+$var wire 8 & A [7:0] $end
+$var wire 8 ' B [7:0] $end
+$var wire 1 % cin $end
+$var wire 8 ( sum [7:0] $end
+$var wire 1 " cout $end
+$var wire 1 ) C4 $end
+$scope module lower $end
+$var wire 4 * A [3:0] $end
+$var wire 4 + B [3:0] $end
+$var wire 1 , C1 $end
+$var wire 1 - C2 $end
+$var wire 1 . C3 $end
+$var wire 1 / C4 $end
+$var wire 4 0 G [3:0] $end
+$var wire 4 1 P [3:0] $end
+$var wire 1 % cin $end
+$var wire 1 ) cout $end
+$var wire 4 2 sum [3:0] $end
+$upscope $end
+$scope module upper $end
+$var wire 4 3 A [3:0] $end
+$var wire 4 4 B [3:0] $end
+$var wire 1 5 C1 $end
+$var wire 1 6 C2 $end
+$var wire 1 7 C3 $end
+$var wire 1 8 C4 $end
+$var wire 4 9 G [3:0] $end
+$var wire 4 : P [3:0] $end
+$var wire 1 ) cin $end
+$var wire 1 " cout $end
+$var wire 4 ; sum [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 ;
+b0 :
+b0 9
+08
+07
+06
+05
+b0 4
+b0 3
+b0 2
+b0 1
+b0 0
+0/
+0.
+0-
+0,
+b0 +
+b0 *
+0)
+b0 (
+b0 '
+b0 &
+0%
+b0 $
+b0 #
+0"
+b0 !
+$end
+#10000
+b1 ;
+1)
+1/
+1.
+1-
+b11001 !
+b11001 (
+b1001 2
+b1010 0
+b101 1
+b1010 +
+b1111 *
+b1010 $
+b1010 '
+b1111 #
+b1111 &
+#20000
+0.
+0)
+0/
+17
+0-
+16
+05
+b110 2
+b10010110 !
+b10010110 (
+b1001 ;
+b0 0
+b110 1
+b10 9
+b101 :
+b10 +
+b11 4
+b100 *
+b110 3
+b110010 $
+b110010 '
+b1100100 #
+b1100100 &
+#30000
+15
+1)
+1/
+1"
+18
+17
+1-
+1.
+16
+1,
+b0 2
+b0 !
+b0 (
+b0 ;
+b1 0
+b1110 1
+b0 9
+b1111 :
+b1 +
+b0 4
+b1111 *
+b1111 3
+b1 $
+b1 '
+b11111111 #
+b11111111 &
+#40000
+0"
+08
+07
+06
+05
+b1111 ;
+0)
+0/
+0.
+0-
+0,
+b11111111 !
+b11111111 (
+b1111 2
+b0 0
+b1111 1
+b111 +
+b11 4
+b1000 *
+b1100 3
+b110111 $
+b110111 '
+b11001000 #
+b11001000 &
+#60000
